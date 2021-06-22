@@ -7,6 +7,8 @@ from graphframes import GraphFrame
 from pyspark import SparkConf, SparkContext
 from pyspark.sql import SparkSession
 
+os.environ["JAVA_HOME"] = "/home/btxuyen/soft/jdk-11.0.2"
+os.environ["SPARK_HOME"] = "/home/btxuyen/soft/spark"
 os.environ["PYSPARK_SUBMIT_ARGS"] = (
     "--packages graphframes:graphframes:0.6.0-spark2.3-s_2.11")
 
