@@ -43,11 +43,11 @@ if __name__ == '__main__':
     # sc = SparkContext(conf=conf)
 
     vertices_schema = StructType([StructField('id', StringType())])
-    vertices = sqlContext.read.csv("../data/5.csv", schema=vertices_schema)
+    vertices = sqlContext.read.csv("data/5.csv", schema=vertices_schema)
 
     edges_schema = StructType([StructField('src', StringType()),
                                StructField('dst', StringType())])
-    edges = sqlContext.read.csv("../data/6.csv", schema=edges_schema)
+    edges = sqlContext.read.csv("data/6.csv", schema=edges_schema)
 
     g = GraphFrame(vertices, edges)
 

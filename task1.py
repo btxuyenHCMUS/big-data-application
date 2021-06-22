@@ -28,8 +28,8 @@ if __name__ == '__main__':
     start = time.time()
     # define input variables
     filter_threshold = "7"
-    input_csv_path = "../data/ub_sample_data.csv"
-    output_file_path = "../out/task1-ex.txt"
+    input_csv_path = "data/ub_sample_data.csv"
+    output_file_path = "out/task1-ex.txt"
 
     # filter_threshold = sys.argv[1]
     # input_csv_path = sys.argv[2]

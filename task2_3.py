@@ -333,9 +333,9 @@ if __name__ == '__main__':
     start = time.time()
     # define input variables
     filter_threshold = "7"
-    input_csv_path = "../data/ub_sample_data.csv"
-    betweenness_file_path = "../out/task2_bet3.txt"
-    community_file_path = "../out/task2_com3.txt"
+    input_csv_path = "data/ub_sample_data.csv"
+    betweenness_file_path = "out/task2_bet3.txt"
+    community_file_path = "out/task2_com3.txt"
 
     # filter_threshold = sys.argv[1]
     # input_csv_path = sys.argv[2]
